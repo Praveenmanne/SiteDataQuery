@@ -134,5 +134,45 @@ namespace SharePointSPSiteDataQuery
         {
             MessageBox.Show("http://sharepointfordeveloper.blogspot.in/2011/10/step-by-step-spquery-list-joins.html");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string siteUrl = "http://home";
+            SPWeb _web = new SPSite(siteUrl).OpenWeb();
+            var items = _web.Lists["Customer"].GetItems(GetQuery());
+            foreach (SPListItem item in items)
+            {
+
+                MessageBox.Show(string.Format("{0}----{1}", item["Title"], item["CityTitle"]));
+
+            }
+
+        }
+
+        private SPQuery GetQuery()
+        {
+            SPQuery _query = new SPQuery();
+            _query.Query = "";
+
+            _query.Joins = @"<Join Type='INNER' ListAlias='City'> 
+                          <!--List Name: CustomerCity--> 
+                          <Eq>
+                             <FieldRef Name='City' RefType='ID' /> 
+                            <FieldRef List='City' Name='ID' /> 
+                          </Eq> 
+                        </Join>";
+
+            _query.ProjectedFields = @"<Field Name='CityTitle' Type='Lookup' List='City' ShowField='Title' />
+ 
+                                    <Field Name='CityContentTypeId' Type='Lookup' List='City' ShowField='ContentTypeId' />";
+
+
+            _query.ViewFields = @" <FieldRef Name='Title' />
+ 
+                                     <FieldRef Name='CityTitle' />";
+
+            return _query;
+
+        } 
     }
 }
