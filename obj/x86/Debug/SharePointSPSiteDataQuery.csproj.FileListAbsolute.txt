@@ -1,0 +1,11 @@
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\bin\Debug\SharePointSPSiteDataQuery.exe
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\bin\Debug\SharePointSPSiteDataQuery.pdb
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.Properties.Resources.resources
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\ResGen.read.1.tlog
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\ResGen.write.1.tlog
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.exe
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.pdb
+F:\Development\SharePoint\basant\SharePointSPSiteDataQuery\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.Qeury.resources
+C:\Users\praveen.TILLID\Downloads\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.exe
+C:\Users\praveen.TILLID\Downloads\SharePointSPSiteDataQuery\obj\x86\Debug\SharePointSPSiteDataQuery.pdb
